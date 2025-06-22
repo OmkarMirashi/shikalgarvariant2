@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="desktop1-container">
+        <div class="desktop1-desktop1">
+          <div class="desktop1-group7">
+            <div class="desktop1-services">
+              <div class="desktop1-group6">
+                <div class="desktop1-group5">
+                  <img
+                    src="public/external/rectangle11033-sg6m-500h.png"
+                    alt="Rectangle11033"
+                    class="desktop1-rectangle1"
+                  />
+                  <div class="desktop1-group2">
+                    <span class="desktop1-text10">DEPOSITS</span>
+                    <span class="desktop1-text11">
+                      <span>We provide various types of deposit schemes</span>
+                      <br />
+                      <span>for our members with higher interests.</span>
+                    </span>
+                    <span class="desktop1-text15">Learn more...</span>
+                  </div>
+                </div>
+                <div class="desktop1-group4">
+                  <img
+                    src="public/external/rectangle2132-o1zl-500h.png"
+                    alt="Rectangle2132"
+                    class="desktop1-rectangle2"
+                  />
+                  <div class="desktop1-group3">
+                    <span class="desktop1-text16">Loans</span>
+                    <span class="desktop1-text17">
+                      We provide various types of loans to meet the diverse
+                      needs of our members with competitive interest rates and
+                      flexible repayment options.
+                    </span>
+                    <span class="desktop1-text18">Learn more...</span>
+                  </div>
+                </div>
+                <span class="desktop1-text19">SERVICES</span>
+              </div>
+            </div>
+            <div class="desktop1-statistics">
+              <div class="desktop1-stats">
+                <div class="desktop1-branch">
+                  <span class="desktop1-text20">BRANCH</span>
+                  <img
+                    src="public/external/hexagon7397-i2af-200h.png"
+                    alt="Hexagon7397"
+                    class="desktop1-hexagon1"
+                  />
+                  <img
+                    src="public/external/branchlocator912-k2jk-200h.png"
+                    alt="branchlocator912"
+                    class="desktop1-branchlocator"
+                  />
+                </div>
+                <div class="desktop1-loans">
+                  <img
+                    src="public/external/hexagon7395-mq19-200h.png"
+                    alt="Hexagon7395"
+                    class="desktop1-hexagon2"
+                  />
+                  <span class="desktop1-text21">14 Cr</span>
+                  <span class="desktop1-text22">LOANS</span>
+                  <img
+                    src="public/external/loan99-8ie-200h.png"
+                    alt="Loan99"
+                    class="desktop1-loan"
+                  />
+                </div>
+                <div class="desktop1-deposits">
+                  <span class="desktop1-text23">16.24 Cr</span>
+                  <span class="desktop1-text24">DEPOSITS</span>
+                  <img
+                    src="public/external/hexagon7393-kirm-200h.png"
+                    alt="Hexagon7393"
+                    class="desktop1-hexagon3"
+                  />
+                  <img
+                    src="public/external/deposit98-ua9c-200h.png"
+                    alt="Deposit98"
+                    class="desktop1-deposit"
+                  />
+                </div>
+                <div class="desktop1-investment1">
+                  <img
+                    src="public/external/hexagon7392-5t0k-200h.png"
+                    alt="Hexagon7392"
+                    class="desktop1-hexagon4"
+                  />
+                  <span class="desktop1-text25">INVESTMENTS</span>
+                  <span class="desktop1-text26">7.75 Cr</span>
+                  <img
+                    src="public/external/investment97-8b2n-200h.png"
+                    alt="investment97"
+                    class="desktop1-investment2"
+                  />
+                </div>
+                <div class="desktop1-members">
+                  <img
+                    src="public/external/hexagon7391-aof-200h.png"
+                    alt="Hexagon7391"
+                    class="desktop1-hexagon5"
+                  />
+                  <span class="desktop1-text27">MEMBERS</span>
+                  <span class="desktop1-text28">5663</span>
+                  <img
+                    src="public/external/groupuser96-d1r8-200h.png"
+                    alt="GroupUser96"
+                    class="desktop1-group-user"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="desktop1-vision-mission">
+              <div class="desktop1-group1">
+                <div class="desktop1-vision1">
+                  <img
+                    src="public/external/vision7226-jpyi-200h.png"
+                    alt="Vision7226"
+                    class="desktop1-vision2"
+                  />
+                  <span class="desktop1-text29">VISION</span>
+                  <span class="desktop1-text30">
+                    To become a leading co-operative credit society.
+                  </span>
+                </div>
+                <div class="desktop1-mission">
+                  <img
+                    src="public/external/targetreport7227-ulp-200h.png"
+                    alt="TargetReport7227"
+                    class="desktop1-target-report"
+                  />
+                  <span class="desktop1-text31">MISSION</span>
+                  <span class="desktop1-text32">
+                    <span>
+                      To deliver operational excellence through technology
+                    </span>
+                    <br />
+                    <span>and commitment.</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="desktop1-hero">
+              <img
+                src="public/external/gptimage1intheheartofshikalgarsahakaripathpedialad7169-buyo-600h.png"
+                alt="GPTImage1IntheheartofShikalgarSahakariPathpedialad7169"
+                class="desktop1gpt-image1-intheheartof-shikalgar-sahakari-pathpedialad"
+              />
+            </div>
+            <div class="desktop1-navbar">
+              <div class="desktop1-amerisource-bergen-navbar80px-light">
+                <div class="desktop1-frame35">
+<div class="desktop1-frame33 navigation-menu">
+  <a href="#" class="nav-item desktop1-text36">Home</a>
+  <a href="#" class="nav-item desktop1-text37">Services</a>
+  <a href="#" class="nav-item desktop1-text38">Events</a>
+  <a href="#" class="nav-item desktop1-text39">Downloads</a>
+  <a href="#" class="nav-item desktop1-text40">Contact Us</a>
+  <a href="#" class="nav-item desktop1-text41">About Us</a>
+</div>
+                  <img
+                    src="public/external/frame345347-kmb.svg"
+                    alt="Frame345347"
+                    class="desktop1-frame34"
+                  />
+                </div>
+                <img
+                  src="public/external/sccsllogo15388-szah-200h.png"
+                  alt="SCCSLLogo15388"
+                  class="desktop1sccsl-logo11"
+                />
+                <span class="desktop1-text42">
+                  SHIKALGAR SAHAKARI PATHPEDI MARDYADIT, MUMBAI
+                </span>
+                <span class="desktop1-text43">Regd. No. BOM/RSR/841/1977</span>
+              </div>
+            </div>
+          </div>
+          <div class="desktop1-getin-touch">
+            <span class="desktop1-text44">GET IN TOUCH</span>
+            <div class="desktop1-group14">
+              <img
+                src="public/external/rectangle3242-qf0m-700w.png"
+                alt="Rectangle3242"
+                class="desktop1-rectangle3"
+              />
+              <div class="desktop1-group13">
+                <div class="desktop1-group12">
+                  <div class="desktop1-group11">
+                    <span class="desktop1-text45">+ 91 92214 57245</span>
+                    <img
+                      src="public/external/call2411-tzl-200h.png"
+                      alt="Call2411"
+                      class="desktop1-call"
+                    />
+                  </div>
+                  <div class="desktop1-group10">
+                    <span class="desktop1-text46">
+                      <span class="desktop1-text47"><strong>Head Office</strong></span>
+                      <br />
+                      <span>Kasambhai &amp; Sons, B/4, 1st Floor, Vimukta Shanti Niketan CHSL, S. G. Barve Marg, Behind Khemanand Pharma, Kurla (E), Mumbai - 400 024.</span>
+                    </span>
+                    <img
+                      src="public/external/office2410-bpr8-200h.png"
+                      alt="office2410"
+                      class="desktop1-office"
+                    />
+                  </div>
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.1234567890123!2d72.8888888!3d19.1234567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c123456789ab%3A0x123456789abcdef!2sKasambhai%20%26%20Sons%2C%20Kurla%2C%20Mumbai!5e0!3m2!1sen!2sin!4v1695830400000!5m2!1sen!2sin"
+  width="300"
+  height="300"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+  class="desktop1-map"
+></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="desktop1-footer">
+            <div class="desktop1-footer041">
+              <div class="desktop1-footer042">
+                <div class="desktop1-frame1">
+                  <div class="desktop1-group9">
+                    <span class="desktop1-text56">SHIKALGAR</span>
+                    <div class="desktop1-group8">
+                      <img
+                        src="public/external/sccsllogo11611-tjhe-200h.png"
+                        alt="SCCSLLogo11611"
+                        class="desktop1sccsl-logo12"
+                      />
+                      <span class="desktop1-text57">
+                        Sahakari Pathpedi Maryadit, Mumbai
+                      </span>
+                      <span class="desktop1-text58">
+                        Regd. No. BOM/RSR/841/1977
+                      </span>
+                    </div>
+                  </div>
+                  <div class="desktop1-frame44158">
+                    <div class="desktop1-frame44157">
+                      <span class="desktop1-text59">Quick Links</span>
+                      <span class="desktop1-text60">About Us</span>
+                      <span class="desktop1-text61">Services</span>
+                      <span class="desktop1-text62">Events</span>
+                      <span class="desktop1-text63">Downloads</span>
+                      <span class="desktop1-text64">Contact Us</span>
+                    </div>
+                    <div class="desktop1-frame44155">
+                      <span class="desktop1-text65">Branches</span>
+                      <span class="desktop1-text66">Mumbai -Main Branch</span>
+                      <span class="desktop1-text67">
+                        Mumbai - Goregaon Branch
+                      </span>
+                      <span class="desktop1-text68">
+                        Mumbai - Chembur Branch
+                      </span>
+                      <span class="desktop1-text69">
+                        Mumbai - Govandi Branch
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="desktop1-frame2">
+              <img
+                src="public/external/frame1611-7wy.svg"
+                alt="Frame1611"
+                class="desktop1-frame3"
+              />
+              <span class="desktop1-text70">
+                © 2025 - Shikalgar Sahakari Pathpedi Maryadit, Mumbai. All
+                Rights Reserved.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

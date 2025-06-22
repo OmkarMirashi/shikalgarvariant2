@@ -1,0 +1,1330 @@
+.desktop1-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.desktop1-desktop1 {
+  width: 100%;
+  height: 3513px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+ 
+.desktop1-group7 {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 1440px;
+  height: 2568px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-services {
+  top: 1575px;
+  left: 0px;
+  width: 1440px;
+  height: 993px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  background: linear-gradient(0deg, rgba(213, 198, 171, 1) 0%, rgba(111, 103, 89, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop1-group6 {
+  top: 61px;
+  left: 100px;
+  width: 1240px;
+  height: 852px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-group5 {
+  top: 102px;
+  left: 110px;
+  width: 1130px;
+  height: 430px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-rectangle1 {
+  top: 0px;
+  left: 470px;
+  width: 660px;
+  height: 430px;
+  position: absolute;
+  border-radius: 16px;
+}
+ 
+.desktop1-group2 {
+  top: 102px;
+  left: 0px;
+  width: 439px;
+  height: 113px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-text10 {
+  left: 256px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Gentium Book Plus;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text11 {
+  top: 48px;
+  color: rgba(0, 0, 0, 1);
+  width: 439px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Geologica;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text15 {
+  top: 93px;
+  left: 313px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Geologica;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.desktop1-group4 {
+  top: 422px;
+  left: 0px;
+  width: 1132px;
+  height: 430px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-rectangle2 {
+  top: 0px;
+  left: 0px;
+  width: 660px;
+  height: 430px;
+  position: absolute;
+  border-radius: 16px;
+}
+ 
+.desktop1-group3 {
+  top: 197px;
+  left: 693px;
+  width: 439px;
+  height: 152px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-text16 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Gentium Book Plus;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text17 {
+  top: 44px;
+  color: rgba(0, 0, 0, 1);
+  width: 439px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Geologica;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text18 {
+  top: 132px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: right;
+  font-family: Geologica;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: underline;
+}
+ 
+.desktop1-text19 {
+  left: 508px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Gentium Book Plus;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-statistics {
+  top: 1132px;
+  left: 0px;
+  width: 1440px;
+  height: 443px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-size: cover;
+  background-color: rgba(235, 233, 246, 0.8600000143051147);
+  background-image: url("public/external/tq_j_brug0ciq-phq8-500h.png");
+}
+ 
+.desktop1-stats {
+  top: 50px;
+  left: 120px;
+  width: 1200px;
+  height: 332px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-branch {
+  top: 68px;
+  left: 1000px;
+  width: 200px;
+  height: 264px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-text20 {
+  left: 42px;
+  color: rgba(56, 46, 118, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Gentium Book Basic;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-hexagon1 {
+  top: 32px;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+ 
+.desktop1-branchlocator {
+  top: 82px;
+  left: 51px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+ 
+.desktop1-loans {
+  top: 0px;
+  left: 750px;
+  width: 200px;
+  height: 266px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-hexagon2 {
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+ 
+.desktop1-text21 {
+  top: 234px;
+  left: 63px;
+  color: rgba(153, 66, 51, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Gentium Book Basic;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text22 {
+  top: 197px;
+  left: 55px;
+  color: rgba(153, 66, 51, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Gentium Book Basic;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-loan {
+  top: 50px;
+  left: 55px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+ 
+.desktop1-deposits {
+  top: 68px;
+  left: 500px;
+  width: 200px;
+  height: 264px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-text23 {
+  top: 232px;
+  left: 44px;
+  color: rgba(56, 46, 118, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Gentium Book Basic;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text24 {
+  left: 33px;
+  color: rgba(56, 46, 118, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Gentium Book Basic;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-hexagon3 {
+  top: 32px;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+ 
+.desktop1-deposit {
+  top: 79px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+ 
+.desktop1-investment1 {
+  top: 0px;
+  left: 250px;
+  width: 200px;
+  height: 266px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-hexagon4 {
+  top: 0px;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+ 
+.desktop1-text25 {
+  top: 200px;
+  color: rgba(153, 66, 51, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Gentium Book Basic;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text26 {
+  top: 234px;
+  left: 49px;
+  color: rgba(153, 66, 51, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Gentium Book Basic;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-investment2 {
+  top: 47px;
+  left: 55px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+ 
+.desktop1-members {
+  top: 68px;
+  left: 0px;
+  width: 200px;
+  height: 264px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-hexagon5 {
+  top: 32px;
+  left: 0px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+ 
+.desktop1-text27 {
+  left: 31px;
+  color: rgba(56, 46, 118, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Gentium Book Basic;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text28 {
+  top: 232px;
+  left: 67px;
+  color: rgba(56, 46, 118, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Gentium Book Basic;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-group-user {
+  top: 79px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+ 
+.desktop1-vision-mission {
+  top: 700px;
+  left: 0px;
+  width: 1440px;
+  height: 432px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  background: linear-gradient(0deg, rgba(235, 233, 246, 1) 0%, rgba(137, 136, 144, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop1-group1 {
+  top: 50px;
+  left: 138px;
+  width: 1165px;
+  height: 350px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-vision1 {
+  top: 0px;
+  left: 0px;
+  width: 461px;
+  height: 325px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-vision2 {
+  top: 0px;
+  left: 131px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+ 
+.desktop1-text29 {
+  top: 238px;
+  left: 180px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Gentium Book Basic;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text30 {
+  top: 305px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Geologica;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-mission {
+  top: 0px;
+  left: 654px;
+  width: 511px;
+  height: 350px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-target-report {
+  top: 0px;
+  left: 156px;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+ 
+.desktop1-text31 {
+  top: 237px;
+  left: 193px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Gentium Book Basic;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text32 {
+  top: 305px;
+  color: rgba(0, 0, 0, 1);
+  width: 511px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Geologica;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-hero {
+  top: 100px;
+  left: 0px;
+  width: 1440px;
+  height: 600px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(213, 198, 171, 1);
+}
+ 
+.desktop1gpt-image1-intheheartof-shikalgar-sahakari-pathpedialad {
+  top: 2.842170943040401e-14px;
+  left: 270px;
+  width: 900px;
+  height: 600px;
+  position: absolute;
+}
+ 
+.desktop1-navbar {
+  top: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 100px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(40, 53, 61, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+ 
+.desktop1-amerisource-bergen-navbar80px-light {
+  top: 0px;
+  left: 0px;
+  width: 1443px;
+  height: 100px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: var(--dl-color-default-bluegray50);
+}
+ 
+.desktop1-frame35 {
+  gap: 32px;
+  top: 35px;
+  left: 832px;
+  width: 548px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+}
+ 
+.navigation-menu {
+  display: flex;
+  gap: 24px;
+  padding: 8px 2px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.nav-item {
+  color: rgba(0, 0, 0, 1);
+  font-size: 14px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 100%;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding: 4px 0;
+  transition: color 0.3s ease;
+}
+
+.nav-item::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background-color: darkblue;
+  transition: left 0.3s ease;
+}
+
+.nav-item:hover {
+  color: darkblue;
+}
+
+.nav-item:hover::before {
+  left: 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navigation-menu {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+ 
+.desktop1-text38 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text39 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text40 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text41 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-frame34 {
+  width: 39px;
+  height: 24px;
+}
+ 
+.desktop1sccsl-logo11 {
+  top: 5px;
+  left: 50px;
+  width: 139px;
+  height: 90px;
+  position: absolute;
+}
+ 
+.desktop1-text42 {
+  top: 25px;
+  left: 176px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Gentium Book Plus;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text43 {
+  top: 54px;
+  left: 199px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Gentium Book Plus;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-getin-touch {
+  top: 2568px;
+  left: 0px;
+  right: 0px;
+  width: 1440px;
+  height: 525px;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(235, 233, 246, 0.8600000143051147) 0%, rgba(137, 136, 144, 0.8600000143051147) 100%);
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop1-text44 {
+  top: 38px;
+  left: 551px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Gentium Book Plus;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-group14 {
+  top: 102px;
+  left: 109px;
+  width: 1222px;
+  height: 385px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-rectangle3 {
+  top: 0px;
+  left: 0px;
+  width: 652px;
+  height: 385px;
+  position: absolute;
+}
+ 
+.desktop1-group13 {
+  top: 42px;
+  left: 82px;
+  width: 1140px;
+  height: 301px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(217, 217, 217, 1);
+}
+ 
+.desktop1-group12 {
+  top: 32px;
+  left: 15px;
+  width: 1087px;
+  height: 237px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-group11 {
+  top: 167px;
+  left: 2px;
+  width: 323px;
+  height: 70px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-text45 {
+  top: 19px;
+  left: 89px;
+  color: rgb(0, 0, 0);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Bold;
+  text-align: left;
+  font-family: "Gentium Book Plus";
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-call {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+}
+ 
+.desktop1-group10 {
+  top: 6px;
+  left: 0px;
+  width: 555px;
+  height: 127px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-text46 {
+  left: 94px;
+  color: rgb(0, 0, 0);
+  height: auto;
+  position: absolute;
+  font-size: 26px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Gentium Book Plus;
+  font-weight: 700;
+  line-height: 100%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text47 {
+  color: #000000;
+}
+ 
+.desktop1-office {
+  top: 20px;
+  left: 0px;
+  width: 80px;
+  height: 63px;
+  position: absolute;
+}
+ 
+.desktop1-map {
+  top: 0px;
+  left: 600px;
+  width: 487px;
+  height: 237px;
+  position: absolute;
+  border-radius: 8px;
+}
+ 
+.desktop1-footer {
+  top: 3093px;
+  left: 0px;
+  right: 0px;
+  width: 1440px;
+  height: 420px;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  background: linear-gradient(0deg, rgba(40, 53, 61, 1) 0%, rgba(106, 141, 163, 1) 100%);
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+ 
+.desktop1-footer041 {
+  top: 0px;
+  left: 1px;
+  width: 1439px;
+  height: 354px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+}
+ 
+.desktop1-footer042 {
+  gap: 106px;
+  height: 354px;
+  display: flex;
+  padding: 50px 166px 39px;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-default-xxxlightgray);
+}
+ 
+.desktop1-frame1 {
+  gap: 250px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.desktop1-group9 {
+  width: 377px;
+  height: 287px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1-text56 {
+  color: rgba(0, 0, 0, 1);
+  width: 251px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Black;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 900;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-group8 {
+  top: 39px;
+  left: 0px;
+  width: 377px;
+  height: 248px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+ 
+.desktop1sccsl-logo12 {
+  top: 74.14103698730469px;
+  left: 0px;
+  width: 269px;
+  height: 174px;
+  position: absolute;
+}
+ 
+.desktop1-text57 {
+  color: rgba(0, 0, 0, 1);
+  width: 377px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text58 {
+  top: 30px;
+  color: rgba(0, 0, 0, 1);
+  width: 294px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-frame44158 {
+  gap: 63px;
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.desktop1-frame44157 {
+  gap: 12px;
+  display: flex;
+  padding: 0 34px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.desktop1-text59 {
+  color: var(--dl-color-default-gray);
+  height: auto;
+  font-size: 14px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text60 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text61 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text62 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text63 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text64 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-frame44155 {
+  gap: 12px;
+  display: flex;
+  padding: 0 34px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+ 
+.desktop1-text65 {
+  color: var(--dl-color-default-gray);
+  height: auto;
+  font-size: 14px;
+  font-style: SemiBold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 600;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text66 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text67 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text68 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-text69 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 16px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.desktop1-frame2 {
+  gap: 44px;
+  top: 366px;
+  left: 357.22216796875px;
+  width: 727px;
+  height: 41px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+}
+ 
+.desktop1-frame3 {
+  width: 101px;
+  height: 24px;
+}
+ 
+.desktop1-text70 {
+  color: var(--dl-color-default-xlightgray);
+  height: auto;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 500;
+  line-height: 34px;
+  font-stretch: normal;
+  text-decoration: none;
+}
